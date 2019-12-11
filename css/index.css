@@ -7,10 +7,15 @@ html, body, div {
 	clear: both;
 }
 
+.img {
+	width: 100%;
+}
+
 
 header {
 	background-color: black;
 	color: white;
+	line-height: 1;
 }
 
 header > nav {
@@ -19,7 +24,8 @@ header > nav {
 
 header > nav > div {
 	float: left;
-	padding: 12px;
+	padding: 12px 20px;
+	cursor: pointer;	/* 커서가 손가락으로 바뀜 */
 }
 
 header > nav > div:hover {
@@ -29,7 +35,8 @@ header > nav > div:hover {
 
 header > span {
 	float: right;
-	padding: 12px;
+	padding: 12px 24px;
+	cursor: pointer;
 }
 
 header > span:hover {
