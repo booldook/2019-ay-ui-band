@@ -13,3 +13,8 @@
 git config --global user.email "booldook@example.com"
 git config --global user.name "yourname"
 ~~~
+
+### 저장하고 싶을 때 마다
+1. 좌측의 세번째 버튼을 눌러서
+2. 입력창에 저장할 내용을 적고 `ctrl + enter`한다.
+3. `...`를 클릭하여 푸쉬를 선택한다.
