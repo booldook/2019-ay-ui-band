@@ -1,0 +1,28 @@
+html, body, div {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+header {
+	background-color: black;
+	color: white;
+}
+
+header > nav {
+	float: left;
+}
+
+header > nav > div {
+	float: left;
+	padding: 12px;
+}
+
+header > span {
+	float: right;
+	padding: 12px;
+}
