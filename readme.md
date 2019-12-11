@@ -7,4 +7,9 @@
 5. public or private중 하나를 선택한다.
 6. 하단의 `create repository` 녹색 버튼을 눌러 repository를 생성 완료한다.
 
-## 작업컴퓨터에서 해야할 일
+## 작업PC에서 해야할 일
+### PC에서 한번만 작업할 내용.
+~~~bash
+git config --global user.email "booldook@example.com"
+git config --global user.name "yourname"
+~~~
