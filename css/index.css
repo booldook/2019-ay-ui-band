@@ -22,7 +22,16 @@ header > nav > div {
 	padding: 12px;
 }
 
+header > nav > div:hover {
+	background-color: #ccc;
+	color: #000;
+}
+
 header > span {
 	float: right;
 	padding: 12px;
+}
+
+header > span:hover {
+	background-color: #ee2200;
 }
