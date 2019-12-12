@@ -84,6 +84,7 @@ header > span:hover {
 }
 .ticket-wrap {
 	background-color: #fff;
+	margin: 30px auto;
 }
 .ticket-wrap > li {
 	padding: 12px;
@@ -102,4 +103,16 @@ header > span:hover {
 	padding: 3px 8px;
 	border-radius: 50%;
 	float: right;
+}
+
+.city {
+	float: left;
+	width: 32%;
+}
+.city-wrap > :nth-child(2) {
+	margin: 0 2%;
+}
+.city-conts {
+	background-color: #f8f8f8;
+	padding: 16px;
 }
