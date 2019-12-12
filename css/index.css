@@ -4,22 +4,9 @@ html, body {
 	height: 10000px;
 }
 
-html, body, div {
-	margin: 0;
-	padding: 0;
-}
-
-.clearfix {
-	clear: both;
-}
-
-.img {
-	width: 100%;
-}
-
 .wrapper {
-	max-width: 768px;
-	border: 10px solid red;
+	width: 768px;
+	border: 1px solid red;
 	margin: 0 auto;
 }
 

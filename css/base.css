@@ -1,0 +1,16 @@
+html, body, div, img, section, header, nav, footer, aside {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.img {
+	width: 100%;
+}
