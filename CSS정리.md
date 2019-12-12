@@ -49,6 +49,8 @@ text-align: center; /* left, right, center, justify */
 
 /* 테두리와 관련된 속성 */
 border: 1px solid red;
+border-radius: 5px;
+border-radius: 50%; /* 원을 만들때 */
 
 /* 여백과 관련된 속성 */
 margin: 12px; /* 상, 우, 하, 좌 12px */
@@ -63,4 +65,8 @@ margin-bottom: 12px;
 
 /* block을 문서의 가운데 정렬하려면 */
 margin: 0 auto;
+
+/* 크기(dimension)와 관련된 css */
+box-sizing: content-box; /* (css 기본값) 테두리와 패딩을 제외한 실제 컨텐츠 영역의 크기로 width, height를 사용함 */
+box-sizing: border-box; /* (항상 이거로 써야함) 테두리와 패딩을 포함한 크기로 width, height를 사용함 */
 ~~~

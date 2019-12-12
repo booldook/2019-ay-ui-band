@@ -6,7 +6,6 @@ html, body {
 
 .wrapper {
 	width: 768px;
-	border: 1px solid red;
 	margin: 50px auto;
 }
 .wrapper > h2 {
@@ -58,6 +57,15 @@ header > span:hover {
 	background-color: #ee2200;
 }
 
-.band-wrap {
-	border: 1px solid blue;
+.member {
+	width: 33.3333%;
+	padding: 6%;
+	float: left;
+}
+.member > h4 {
+	text-align: center;
+	margin-bottom: 16px;
+}
+.member > img {
+	border-radius: 5px;
 }
