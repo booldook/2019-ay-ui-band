@@ -6,7 +6,7 @@ html, body {
 
 .wrapper {
 	max-width: 768px;
-	margin: 50px auto;
+	margin: 0 auto;
 }
 .wrapper > h2 {
 	text-align: center;
@@ -57,6 +57,10 @@ header > span:hover {
 	background-color: #ee2200;
 }
 
+.band-wrap {
+	padding: 50px 0;
+}
+
 .member {
 	width: 33.3333%;
 	padding: 6%;
@@ -72,8 +76,17 @@ header > span:hover {
 
 .tour-wrap {
 	background-color: #000;
+	padding: 50px 0;
 }
 
 .tour-wrap h2 {
 	color: #fff;
+}
+.ticket-wrap {
+	background-color: #fff;
+}
+.ticket-wrap > div {
+	padding: 12px;
+	color: #777;
+	border-bottom: 1px solid #ccc;
 }
