@@ -5,7 +5,7 @@ html, body {
 }
 
 .wrapper {
-	width: 768px;
+	max-width: 768px;
 	margin: 50px auto;
 }
 .wrapper > h2 {
@@ -68,4 +68,12 @@ header > span:hover {
 }
 .member > img {
 	border-radius: 5px;
+}
+
+.tour-wrap {
+	background-color: #000;
+}
+
+.tour-wrap h2 {
+	color: #fff;
 }
