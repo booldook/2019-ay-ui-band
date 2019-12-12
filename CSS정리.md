@@ -22,6 +22,7 @@
 /* 
 css의 가장 중요한 개념들 
 - display속성: block, inline, inline-block, none
+- inline-block은 글씨속성(inline)을 가지지만 width, height, margin-top, margin-bottom 등 block만 가지는 속성도 가지게 된다.
 - float: left, right
 - float는 불안정한 상태 이므로 위치를 잡은 이후에 아래 태그에서 고정시켜줘야 함. (clear: both;)
 */

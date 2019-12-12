@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	height: 10000px;
@@ -8,12 +9,14 @@ html, body {
 	max-width: 768px;
 	margin: 0 auto;
 }
-.wrapper > h2 {
+
+.wrapper>h2 {
 	text-align: center;
 	font-weight: 400;
 	letter-spacing: 5px;
 }
-.wrapper > h3 {
+
+.wrapper>h3 {
 	text-align: center;
 	font-weight: 300;
 	font-style: italic;
@@ -21,7 +24,8 @@ html, body {
 	font-size: 14px;
 	padding: 16px 0;
 }
-.wrapper > p {
+
+.wrapper>p {
 	text-align: justify;
 }
 
@@ -32,28 +36,29 @@ header {
 	line-height: 1;
 }
 
-header > nav {
+header>nav {
 	float: left;
 }
 
-header > nav > div {
+header>nav>div {
 	float: left;
 	padding: 12px 20px;
-	cursor: pointer;	/* 커서가 손가락으로 바뀜 */
+	cursor: pointer;
+	/* 커서가 손가락으로 바뀜 */
 }
 
-header > nav > div:hover {
+header>nav>div:hover {
 	background-color: #ccc;
 	color: #000;
 }
 
-header > span {
+header>span {
 	float: right;
 	padding: 12px 24px;
 	cursor: pointer;
 }
 
-header > span:hover {
+header>span:hover {
 	background-color: #ee2200;
 }
 
@@ -66,11 +71,13 @@ header > span:hover {
 	padding: 6%;
 	float: left;
 }
-.member > h4 {
+
+.member>h4 {
 	text-align: center;
 	margin-bottom: 16px;
 }
-.member > img {
+
+.member>img {
 	border-radius: 5px;
 }
 
@@ -82,21 +89,25 @@ header > span:hover {
 .tour-wrap h2 {
 	color: #f1f1f1;
 }
+
 .ticket-wrap {
 	background-color: #fff;
 	margin: 30px auto;
 }
-.ticket-wrap > li {
+
+.ticket-wrap>li {
 	padding: 12px;
 	color: #777;
 	border-bottom: 1px solid #ccc;
 }
+
 .soldout {
 	background-color: #ff3300;
 	color: #fff;
 	padding: 3px 6px;
 	margin-left: 12px;
 }
+
 .ticket-count {
 	background-color: #111;
 	color: #f1f1f1;
@@ -105,14 +116,38 @@ header > span:hover {
 	float: right;
 }
 
+.city-wrap > :nth-child(2) {
+	margin: 0 2%;
+}
+
 .city {
 	float: left;
 	width: 32%;
 }
-.city-wrap > :nth-child(2) {
-	margin: 0 2%;
-}
+
 .city-conts {
 	background-color: #f8f8f8;
 	padding: 16px;
+}
+
+.city-conts > h4 {
+	padding: 8px 0 16px 0;
+	font-size: 16px;
+}
+.city-conts > h5 {
+	font-size: 16px;
+	font-weight: 300;
+	color: #666;
+}
+.city-conts > .btn-buy {
+	padding: 8px;
+	background-color: #111;
+	color: #f1f1f1;
+	display: inline-block; 
+	margin: 4px 0;
+	cursor: pointer;
+}
+.city-conts > .btn-buy:hover {
+	background-color: #ccc;
+	color: #111;
 }
