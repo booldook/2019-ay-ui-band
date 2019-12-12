@@ -1,4 +1,17 @@
-html, body, div, img, section, header, nav, footer, aside {
+html,
+body,
+div,
+img,
+header,
+section,
+footer,
+nav,
+aside,
+h1,
+h2,
+h3,
+h4,
+h5 {
 	margin: 0;
 	padding: 0;
 }

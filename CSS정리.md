@@ -40,6 +40,9 @@ color: #333;
 font-size: 24px; /* 단위: px, %, rem, em, vw, vh ... */
 text-decoration: none; /* underline, line-through ... */
 font-family: 'Gulim', 'sans-serif';
+font-weight: normal, bold, 100, 200, 300...
+line-height: 1, 1.5, 2, 30px... /* 줄간 */
+letter-spacing: 5px;
 
 /* 글자 정렬과 관련된 속성 */
 text-align: center; /* left, right, center, justify */

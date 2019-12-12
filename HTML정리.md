@@ -12,4 +12,8 @@
 <header></header>
 <section></section>
 <footer></footer>
+
+<!-- Headline 및 본문 -->
+h1 ~ h5 : h1이 가장 크고 h5가 가장 작다./bold체로 표현
+p : 본문의 문단을 표현
 ~~~

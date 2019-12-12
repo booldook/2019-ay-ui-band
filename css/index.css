@@ -7,7 +7,23 @@ html, body {
 .wrapper {
 	width: 768px;
 	border: 1px solid red;
-	margin: 0 auto;
+	margin: 50px auto;
+}
+.wrapper > h2 {
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+.wrapper > h3 {
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+	color: #999;
+	font-size: 14px;
+	padding: 16px 0;
+}
+.wrapper > p {
+	text-align: justify;
 }
 
 
@@ -40,4 +56,8 @@ header > span {
 
 header > span:hover {
 	background-color: #ee2200;
+}
+
+.band-wrap {
+	border: 1px solid blue;
 }
