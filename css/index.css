@@ -125,6 +125,10 @@ header>span:hover {
 	width: 32%;
 }
 
+.city-img:hover {
+	opacity: 0.75;
+}
+
 .city-conts {
 	background-color: #f8f8f8;
 	padding: 16px;
