@@ -75,18 +75,31 @@ header > span:hover {
 }
 
 .tour-wrap {
-	background-color: #000;
+	background-color: #111;
 	padding: 50px 0;
 }
 
 .tour-wrap h2 {
-	color: #fff;
+	color: #f1f1f1;
 }
 .ticket-wrap {
 	background-color: #fff;
 }
-.ticket-wrap > div {
+.ticket-wrap > li {
 	padding: 12px;
 	color: #777;
 	border-bottom: 1px solid #ccc;
+}
+.soldout {
+	background-color: #ff3300;
+	color: #fff;
+	padding: 3px 6px;
+	margin-left: 12px;
+}
+.ticket-count {
+	background-color: #111;
+	color: #f1f1f1;
+	padding: 3px 8px;
+	border-radius: 50%;
+	float: right;
 }
