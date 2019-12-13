@@ -155,3 +155,22 @@ header>span:hover {
 	background-color: #ccc;
 	color: #111;
 }
+
+
+.contact-wrap {
+	padding: 50px 0;
+}
+.msg-wrap {
+	margin-top: 50px;
+}
+.info, .msg {
+	width: 50%;
+	float: left;
+}
+.info > li {
+	font-size: 16px;
+	padding: 6px;
+}
+.info span {
+	width: 40px;
+}
