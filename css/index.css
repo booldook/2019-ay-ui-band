@@ -174,3 +174,21 @@ header>span:hover {
 .info span {
 	width: 40px;
 }
+
+.msg  > div {
+	padding: 4px;
+}
+.msg > div:first-child > input {
+	float: right;
+	width: 40%;
+}
+.msg input[name='username'] {
+	margin-right: 2%;
+}
+.msg > div:nth-child(2) > input {
+	width: 82%;
+}
+
+.msg input {
+	padding: 8px;
+}

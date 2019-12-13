@@ -2,6 +2,7 @@ html,
 body,
 div,
 img,
+input,
 header,
 section,
 footer,
@@ -37,4 +38,24 @@ img {
 
 .img {
 	width: 100%;
+}
+
+.tl {
+	text-align: left;
+}
+.tr {
+	text-align: right;
+}
+.tc {
+	text-align: center;
+}
+.btn-black {
+	background-color: #111;
+	color: #f1f1f1;
+	padding: 8px 12px;
+	border: none;
+}
+.btn-black:hover {
+	background-color: #f1f1f1;
+	color: #111;
 }
