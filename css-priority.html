@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CSS우선순위</title>
+	<link rel="stylesheet" href="./css/css-priority.css">
+	<style>
+	#box1 {
+		color: black;
+	}
+	div#box1 {
+		color: yellow;
+	}
+	div {
+		color: #16f116;
+	}
+	.wrap {
+		color: green;
+	}
+	div.box {
+		color: darkmagenta;
+	}
+	.box {
+		color: orange !important;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="box" id="box1" style="color: #999">가나다라</div>
+	</div>
+</body>
+</html>

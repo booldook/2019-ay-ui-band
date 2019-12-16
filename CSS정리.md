@@ -1,6 +1,18 @@
 # css 정리
 1. css(cascading style sheet)는 style sheet 라고 얘기함.
-2. html의 head안에서 <style></style>로 선언한다.
+2. [inline방식 css적용.우선순위1] <div style="color: red;"></div>
+3. [internal방식 css적용.우선순위2] html의 head안에서 <style></style>로 선언한다.
+4. [external방식 css적용.우선순위3] html의 head안에서 <link rel="stylesheet" href="./css/index.css">
+5. 우선순위 
+	a. !important 10000점
+	b. 인라인 스타일 1000점
+	c. ID선택자 : 100점
+	d. 클래스 선택자 : 10점 / 가상클래스(예:link) 10점
+	e. 태그 1점 / 가상 엘리먼트 (예:first-child) 1점
+6. 자식(자손)선택자
+	a. div > ul <!-- 자식(바로밑에) 선택자 -->
+	b. div ul <!-- 자손(내 안에있는 모든것) 선택자 -->
+	c. div.wrap <!-- div들 중에 class가 wrap인 태그 -->
 
 ## CSS 선언
 ~~~html
@@ -31,7 +43,7 @@ css의 가장 중요한 개념들
 div(block을 대표하는 태그-속성없음) ...Semantic요소[header, section, footer, aside, nav]
 
 /* 기본 inline 속성 */
-span(inline을 대표하는 태그-속성없음), a, b, img
+span(inline을 대표하는 태그-속성없음), a, b, img, i
 
 /* 배경 */
 background-color: red; 
