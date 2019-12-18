@@ -21,5 +21,35 @@ firebase login
 ### 3. 아래의 명령을 실행한다.
 ~~~
 firebase init
-? Are you ready to proceed? (Y/n) <-- Y선택
+
+? Are you ready to proceed? (Y/n) <-- Y선택, 엔터
+
+# 화살표 키로 이동하여 Hosting을 space바로 선택, 엔터
+? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choices.
+ ( ) Database: Deploy Firebase Realtime Database Rules
+ ( ) Firestore: Deploy rules and create indexes for Firestore
+ ( ) Functions: Configure and deploy Cloud Functions
+>(*) Hosting: Configure and deploy Firebase Hosting sites
+ ( ) Storage: Deploy Cloud Storage security rules
+ ( ) Emulators: Set up local emulators for Firebase features
+
+# 첫번째 Use an existing project 선택, 엔터
+? Please select an option: (Use arrow keys)
+> Use an existing project 
+  Create a new project 
+  Add Firebase to an existing Google Cloud Platform project 
+  Don't set up a default project 
+
+# 본인이 방금 만든 프로젝트를 선택, 엔터
+? Select a default Firebase project for this directory: ay-band (ay-band)    
+i  Using project ay-band (ay-band)
+
+# 이후에는 ()로 물어보면 엔터
+(public) 엔터
+(Y/N) Y엔터
+
+# 프로젝트 설치가 완료됨
+# 이후에 생성된 public 폴더에 웹사이트 파일들(css, img, index.html 등)을 옮긴다.
+
+firebase deploy
 ~~~
