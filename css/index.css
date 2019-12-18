@@ -57,6 +57,10 @@ header>span {
 	cursor: pointer;
 }
 
+header .fa-bars {
+	display: none;	
+}
+
 header>span:hover {
 	background-color: #ee2200;
 }
@@ -204,4 +208,25 @@ header>span:hover {
 
 .footer > div:last-child {
 	padding: 8px 0;
+}
+
+/* 반응형 */
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+	header > nav > div:not(:first-child) {
+		display: none;
+	}
+	header .fa-bars {
+		display: block;	
+	}
+	header .fa-search {
+		display: none;	
+	}
 }

@@ -40,25 +40,24 @@ css의 가장 중요한 개념들
 */
 
 /* 기본 Block 속성 */
-div(block을 대표하는 태그-속성없음) ...Semantic요소[header, section, footer, aside, nav]
+/* div(block을 대표하는 태그-속성없음) */
+/* Semantic요소[header, section, footer, aside, nav] */
 
 /* 기본 inline 속성 */
-span(inline을 대표하는 태그-속성없음), a, b, img, i
+/* span(inline을 대표하는 태그-속성없음), a, b, img, i */
 
-/* 배경 */
-background-color: red; 
-
-/* 글자와 관련된 속성 */
+/* 글자와 관련된 속성 - 상속이 된다. */
 color: #333;
 font-size: 24px; /* 단위: px, %, rem, em, vw, vh ... */
 text-decoration: none; /* underline, line-through ... */
 font-family: 'Gulim', 'sans-serif';
-font-weight: normal, bold, 100, 200, 300...
-line-height: 1, 1.5, 2, 30px... /* 줄간 */
+font-weight: normal; /* normal, bold, 100, 200, 300... */
+line-height: 1; /* 1, 1.5, 2, 30px... 줄간 */
 letter-spacing: 5px;
-
-/* 글자 정렬과 관련된 속성 */
 text-align: center; /* left, right, center, justify */
+
+/* 배경 */
+background-color: red; 
 
 /* 테두리와 관련된 속성 */
 border: 1px solid red;
@@ -81,5 +80,14 @@ margin: 0 auto;
 
 /* 크기(dimension)와 관련된 css */
 box-sizing: content-box; /* (css 기본값) 테두리와 패딩을 제외한 실제 컨텐츠 영역의 크기로 width, height를 사용함 */
+.box {
+	/* 실제 width: 260px; 계산이 힘들다. */
+	width: 200px; padding: 20px; border: 10px solid red;
+}
+
 box-sizing: border-box; /* (항상 이거로 써야함) 테두리와 패딩을 포함한 크기로 width, height를 사용함 */
+.box {
+	/* 실제 width: 200px; 계산이 쉽다. - 내용이 적용되는 영역: 140px; */
+	width: 200px; padding: 20px; border: 10px solid red;
+}
 ~~~
