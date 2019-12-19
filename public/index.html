@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="./css/base.css">
 	<link rel="stylesheet" href="./css/index.css">
 	<script src="./js/wow.min.js"></script>
-	<script>new WOW().init();</script>
+	<script>new WOW({offset: 200}).init();</script>
 </head>
 
 <body>
@@ -70,13 +70,13 @@
 			<h2 class="wow bounceInDown">TOUR DATES</h2>
 			<h3 class="wow bounceInUp">Remember to book your tickets!</h3>
 			<ul class="ticket-wrap">
-				<li class="wow bounceInUp">
+				<li class="wow bounceInUp" data-wow-duration="1s">
 					September	<span class="soldout">Sold out</span>
 				</li>
-				<li class="wow bounceInUp">
+				<li class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 					October	<span class="soldout">Sold out</span>
 				</li>
-				<li class="wow bounceInUp">
+				<li class="wow bounceInUp" data-wow-duration="1s"  data-wow-delay="1s">
 					November <span class="ticket-count">3</span>
 				</li>
 			</ul>
