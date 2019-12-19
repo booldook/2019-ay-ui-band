@@ -8,8 +8,11 @@
 	<title>Band Website</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="./css/base.css">
 	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/wow.min.js"></script>
+	<script>new WOW().init();</script>
 </head>
 
 <body>
@@ -33,9 +36,9 @@
 	<!-- 밴드 소개 -->
 	<section class="band-wrap">
 		<div class="wrapper">
-			<h2>THE BAND</h2>
-			<h3>We love music</h3>
-			<p>
+			<h2 class="wow bounceInDown">THE BAND</h2>
+			<h3 class="wow bounceInUp">We love music</h3>
+			<p class="wow fadeIn">
 				We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 				ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -45,15 +48,15 @@
 				aliquip ex ea commodo consequat.
 			</p>
 			<div class="member-wrap">
-				<div class="member">
+				<div class="member wow bounceInLeft">
 					<h4>Name</h4>
 					<img src="./img/bandmember.jpg" class="img" alt="멤버사진">
 				</div>
-				<div class="member">
+				<div class="member wow bounceInUp">
 					<h4>Name</h4>
 					<img src="./img/bandmember.jpg" class="img" alt="멤버사진">
 				</div>
-				<div class="member">
+				<div class="member wow bounceInRight">
 					<h4>Name</h4>
 					<img src="./img/bandmember.jpg" class="img" alt="멤버사진">
 				</div>
@@ -64,21 +67,21 @@
 	<!-- 밴드 투어 -->
 	<section class="tour-wrap">
 		<div class="wrapper">
-			<h2>TOUR DATES</h2>
-			<h3>Remember to book your tickets!</h3>
+			<h2 class="wow bounceInDown">TOUR DATES</h2>
+			<h3 class="wow bounceInUp">Remember to book your tickets!</h3>
 			<ul class="ticket-wrap">
-				<li>
+				<li class="wow bounceInUp">
 					September	<span class="soldout">Sold out</span>
 				</li>
-				<li>
+				<li class="wow bounceInUp">
 					October	<span class="soldout">Sold out</span>
 				</li>
-				<li>
+				<li class="wow bounceInUp">
 					November <span class="ticket-count">3</span>
 				</li>
 			</ul>
 			<ul class="city-wrap">
-				<li class="city">
+				<li class="city wow bounceInLeft">
 					<img src="./img/newyork.jpg" alt="뉴욕" class="city-img img">
 					<div class="city-conts">
 						<h4>Newyork</h4>
@@ -87,7 +90,7 @@
 						<div class="btn-buy">Buy Tickets</div>
 					</div>
 				</li>
-				<li class="city">
+				<li class="city wow bounceInUp">
 					<img src="./img/paris.jpg" alt="파리" class="city-img img">
 					<div class="city-conts">
 						<h4>Paris</h4>
@@ -96,7 +99,7 @@
 						<div class="btn-buy">Buy Tickets</div>
 					</div>
 				</li>
-				<li class="city">
+				<li class="city wow bounceInRight">
 					<img src="./img/sanfran.jpg" alt="샌프란" class="city-img img">
 					<div class="city-conts">
 						<h4>San Francisco</h4>
