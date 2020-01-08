@@ -70,6 +70,20 @@ header>span:hover {
 	padding: 50px 0;
 }
 
+.banner-wrap {
+	position: relative;
+}
+.banner {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	color: #fff;
+}
+.banner .content {position: absolute; bottom: 2rem; width: 100%;}
+.banner h3 {font-size: 1.5rem; padding: 1rem 0;}
+
+
 .member {
 	width: 33.3333%;
 	padding: 6%;
