@@ -66,6 +66,31 @@ header>span:hover {
 	background-color: #ee2200;
 }
 
+.sub-navs {
+	background-color: black;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+	top: 2.7rem;
+	display: none;
+}
+
+.sub-navs.active {
+	display: none;
+}
+
+.sub-navs > li {
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.sub-navs > li:hover {
+	color: #fff;
+	background-color: #aaa;
+}
+
+
 .band-wrap {
 	padding: 50px 0;
 }
@@ -237,6 +262,10 @@ header>span:hover {
 }
 
 @media screen and (max-width: 575px) {
+	.banner-wrap .content {display: none;}
+	.sub-navs.active {
+		display: block;
+	}
 	header > nav > div:not(:first-child) {
 		display: none;
 	}

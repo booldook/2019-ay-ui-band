@@ -10,7 +10,7 @@ console.log(		$(".banner").eq(1)		);
 console.log(		$(".banner").eq(2)		);
 */
 
-var now = 2;
+/* var now = 2;
 setInterval(bannerToggle, 3000);
 function bannerToggle() {
 	//now = (now == 2) ? 0 : now + 1;
@@ -18,7 +18,7 @@ function bannerToggle() {
 	else now++;
 	$(".banner").hide();
 	$(".banner").eq(now).show();
-}
+} */
 
 var now2 = 2;
 setInterval(bannerFade, 3000);
@@ -27,3 +27,7 @@ function bannerFade() {
 	$(".banner2").stop().fadeOut(1000);
 	$(".banner2").eq(now2).stop().fadeIn(1000);
 }
+
+$("#btNav").click(function(){
+	$(".sub-navs").toggleClass("active");
+});
