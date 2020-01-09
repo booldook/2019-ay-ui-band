@@ -73,7 +73,7 @@ header>span:hover {
 .banner-wrap {
 	position: relative;
 }
-.banner {
+.banner, .banner2 {
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -82,6 +82,8 @@ header>span:hover {
 }
 .banner .content {position: absolute; bottom: 2rem; width: 100%;}
 .banner h3 {font-size: 1.5rem; padding: 1rem 0;}
+.banner2 .content {position: absolute; bottom: 2rem; width: 100%;}
+.banner2 h3 {font-size: 1.5rem; padding: 1rem 0;}
 
 
 .member {
